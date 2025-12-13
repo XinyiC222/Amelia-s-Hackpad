@@ -10,12 +10,19 @@ BOM:
 
 Here is my final designs!
 
-##Schematics: 
+**Schematics:** 
+
+
+
 <img width="766" height="728" alt="Screenshot 2025-12-12 at 11 30 13 PM" src="https://github.com/user-attachments/assets/a1ef4da2-1433-42fb-b972-0000e2c47f91" />
 
 
-##PCB:
+**PCB:**
+
+
 <img width="799" height="553" alt="Screenshot 2025-12-12 at 11 29 20 PM" src="https://github.com/user-attachments/assets/4c279d7d-5681-4ea0-9d52-5715c58e7503" />
 
-##CAD:
+**CAD:**
+
+
 <img width="633" height="502" alt="Screenshot 2025-12-12 at 11 30 53 PM" src="https://github.com/user-attachments/assets/f70fce69-4a23-402e-9fc2-8cf649927406" />
