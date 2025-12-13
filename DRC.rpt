@@ -1,0 +1,278 @@
+** Drc report for AmeliasHackpad.kicad_pcb **
+** Created on 2025-12-11T17:44:58-0800 **
+
+** Found 61 DRC violations **
+[shorting_items]: Items shorting two nets (nets +5V and Net-(U1-GPIO26{slash}ADC0{slash}A0))
+    Local override; error
+    @(154.7606 mm, 108.6955 mm): Track [+5V] on F.Cu, length 16.2676 mm
+    @(153.4550 mm, 108.6515 mm): Pad 1 [Net-(U1-GPIO26/ADC0/A0)] of U1 on F.Cu
+[shorting_items]: Items shorting two nets (nets Net-(U1-GPIO27{slash}ADC1{slash}A1) and +5V)
+    Local override; error
+    @(153.4550 mm, 106.1115 mm): Pad 2 [Net-(U1-GPIO27/ADC1/A1)] of U1 on F.Cu
+    @(150.5000 mm, 104.8398 mm): Track [+5V] on F.Cu, length 2.4462 mm
+[shorting_items]: Items shorting two nets (nets +5V and Net-(U1-GPIO26{slash}ADC0{slash}A0))
+    Local override; error
+    @(155.0220 mm, 108.4341 mm): Track [+5V] on F.Cu, length 0.3696 mm
+    @(153.4550 mm, 108.6515 mm): Pad 1 [Net-(U1-GPIO26/ADC0/A0)] of U1 on F.Cu
+[shorting_items]: Items shorting two nets (nets Net-(U1-GPIO27{slash}ADC1{slash}A1) and +5V)
+    Local override; error
+    @(153.4550 mm, 106.1115 mm): Pad 2 [Net-(U1-GPIO27/ADC1/A1)] of U1 on F.Cu
+    @(154.7606 mm, 106.5695 mm): Track [+5V] on F.Cu, length 0.3696 mm
+[shorting_items]: Items shorting two nets (nets Net-(U1-GPIO27{slash}ADC1{slash}A1) and +5V)
+    Local override; error
+    @(153.4550 mm, 106.1115 mm): Pad 2 [Net-(U1-GPIO27/ADC1/A1)] of U1 on F.Cu
+    @(152.2297 mm, 106.5695 mm): Track [+5V] on F.Cu, length 2.5309 mm
+[shorting_items]: Items shorting two nets (nets unconnected-(U1-GPIO7{slash}SCL-Pad6) and Net-(D1-DIN))
+    Local override; error
+    @(153.4550 mm, 95.9515 mm): Pad 6 [unconnected-(U1-GPIO7/SCL-Pad6)] of U1 on F.Cu
+    @(155.0220 mm, 95.9555 mm): Track [Net-(D1-DIN)] on F.Cu, length 2.1454 mm
+[shorting_items]: Items shorting two nets (nets Net-(U1-GPIO4{slash}MISO) and unconnected-(U1-GPIO7{slash}SCL-Pad6))
+    Local override; error
+    @(161.5592 mm, 96.4095 mm): Track [Net-(U1-GPIO4/MISO)] on B.Cu, length 23.0663 mm
+    @(152.6200 mm, 95.9515 mm): PTH pad 6 [unconnected-(U1-GPIO7/SCL-Pad6)] of U1
+[shorting_items]: Items shorting two nets (nets Net-(U1-GPIO2{slash}SCK) and unconnected-(U1-GPIO0{slash}TX-Pad7))
+    Local override; error
+    @(138.6722 mm, 93.6903 mm): Track [Net-(U1-GPIO2/SCK)] on B.Cu, length 25.1778 mm
+    @(152.6200 mm, 93.4115 mm): PTH pad 7 [unconnected-(U1-GPIO0/TX-Pad7)] of U1
+[shorting_items]: Items shorting two nets (nets Net-(U1-GPIO28{slash}ADC2{slash}A2) and Net-(U1-GPIO1{slash}RX))
+    Local override; error
+    @(137.8703 mm, 93.8695 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 0.8806 mm
+    @(137.3800 mm, 93.4115 mm): PTH pad 8 [Net-(U1-GPIO1/RX)] of U1
+[shorting_items]: Items shorting two nets (nets Net-(U1-GPIO3{slash}MOSI) and Net-(D1-DIN))
+    Local override; error
+    @(138.4930 mm, 98.9495 mm): Track [Net-(U1-GPIO3/MOSI)] on B.Cu, length 26.1879 mm
+    @(152.6200 mm, 98.4915 mm): PTH pad 5 [Net-(D1-DIN)] of U1
+[shorting_items]: Items shorting two nets (nets Net-(U1-GPIO1{slash}RX) and Net-(U1-GPIO28{slash}ADC2{slash}A2))
+    Local override; error
+    @(137.3800 mm, 93.4115 mm): PTH pad 8 [Net-(U1-GPIO1/RX)] of U1
+    @(138.4506 mm, 93.2892 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 0.8206 mm
+[shorting_items]: Items shorting two nets (nets Net-(U1-GPIO26{slash}ADC0{slash}A0) and Net-(U1-3V3))
+    Local override; error
+    @(148.6530 mm, 103.6155 mm): Track [Net-(U1-GPIO26/ADC0/A0)] on F.Cu, length 13.3136 mm
+    @(137.3800 mm, 103.5715 mm): PTH pad 12 [Net-(U1-3V3)] of U1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1510 mm)
+    Rule: netclass 'Default'; error
+    @(137.3800 mm, 95.9515 mm): PTH pad 9 [Net-(U1-GPIO2/SCK)] of U1
+    @(136.3670 mm, 94.4922 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 5.9606 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1570 mm)
+    Rule: netclass 'Default'; error
+    @(151.6010 mm, 86.4010 mm): Track [Net-(U1-GPIO27/ADC1/A1)] on F.Cu, length 17.6225 mm
+    @(152.6200 mm, 98.4915 mm): PTH pad 5 [Net-(D1-DIN)] of U1
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1951 mm)
+    Rule: netclass 'Default'; error
+    @(152.6700 mm, 107.6325 mm): Track [Net-(U1-GPIO26/ADC0/A0)] on F.Cu, length 5.6809 mm
+    @(153.4550 mm, 106.1115 mm): Pad 2 [Net-(U1-GPIO27/ADC1/A1)] of U1 on F.Cu
+[shorting_items]: Items shorting two nets (nets Net-(U1-GPIO3{slash}MOSI) and Net-(U1-GPIO28{slash}ADC2{slash}A2))
+    Local override; error
+    @(137.3800 mm, 101.0315 mm): PTH pad 11 [Net-(U1-GPIO3/MOSI)] of U1
+    @(136.3670 mm, 100.4528 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 0.8806 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1510 mm)
+    Rule: netclass 'Default'; error
+    @(135.0780 mm, 103.3541 mm): Track [Net-(U1-GPIO26/ADC0/A0)] on F.Cu, length 26.7259 mm
+    @(136.5450 mm, 98.4915 mm): Pad 10 [Net-(U1-GPIO4/MISO)] of U1 on F.Cu
+[shorting_items]: Items shorting two nets (nets Net-(U1-GPIO26{slash}ADC0{slash}A0) and Net-(U1-3V3))
+    Local override; error
+    @(135.3394 mm, 103.6155 mm): Track [Net-(U1-GPIO26/ADC0/A0)] on F.Cu, length 0.3696 mm
+    @(136.5450 mm, 103.5715 mm): Pad 12 [Net-(U1-3V3)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1951 mm)
+    Rule: netclass 'Default'; error
+    @(153.4550 mm, 103.5715 mm): Pad 3 [Net-(U1-GPIO28/ADC2/A2)] of U1 on F.Cu
+    @(151.6010 mm, 104.0235 mm): Track [Net-(U1-GPIO27/ADC1/A1)] on F.Cu, length 1.5118 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1782 mm)
+    Rule: netclass 'Default'; error
+    @(151.1930 mm, 101.0755 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 2.0888 mm
+    @(152.6200 mm, 101.0315 mm): PTH pad 4 [unconnected-(U1-GPIO29/ADC3/A3-Pad4)] of U1
+[shorting_items]: Items shorting two nets (nets Net-(U1-GPIO28{slash}ADC2{slash}A2) and Net-(U1-GPIO3{slash}MOSI))
+    Local override; error
+    @(136.9897 mm, 101.0755 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 14.2033 mm
+    @(137.3800 mm, 101.0315 mm): PTH pad 11 [Net-(U1-GPIO3/MOSI)] of U1
+[shorting_items]: Items shorting two nets (nets Net-(U1-GPIO28{slash}ADC2{slash}A2) and Net-(U1-GPIO1{slash}RX))
+    Local override; error
+    @(136.9897 mm, 93.8695 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 0.8806 mm
+    @(137.3800 mm, 93.4115 mm): PTH pad 8 [Net-(U1-GPIO1/RX)] of U1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(154.7606 mm, 108.6955 mm): Track [+5V] on F.Cu, length 16.2676 mm
+    @(153.4550 mm, 108.6515 mm): Pad 1 [Net-(U1-GPIO26/ADC0/A0)] of U1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(154.7606 mm, 108.6955 mm): Track [+5V] on F.Cu, length 16.2676 mm
+    @(152.6200 mm, 108.6515 mm): PTH pad 1 [Net-(U1-GPIO26/ADC0/A0)] of U1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(150.5000 mm, 104.8398 mm): Track [+5V] on F.Cu, length 2.4462 mm
+    @(153.4550 mm, 106.1115 mm): Pad 2 [Net-(U1-GPIO27/ADC1/A1)] of U1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(150.5000 mm, 104.8398 mm): Track [+5V] on F.Cu, length 2.4462 mm
+    @(152.6200 mm, 106.1115 mm): PTH pad 2 [Net-(U1-GPIO27/ADC1/A1)] of U1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(155.0220 mm, 108.4341 mm): Track [+5V] on F.Cu, length 0.3696 mm
+    @(153.4550 mm, 108.6515 mm): Pad 1 [Net-(U1-GPIO26/ADC0/A0)] of U1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(154.7606 mm, 106.5695 mm): Track [+5V] on F.Cu, length 0.3696 mm
+    @(153.4550 mm, 106.1115 mm): Pad 2 [Net-(U1-GPIO27/ADC1/A1)] of U1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(152.2297 mm, 106.5695 mm): Track [+5V] on F.Cu, length 2.5309 mm
+    @(153.4550 mm, 106.1115 mm): Pad 2 [Net-(U1-GPIO27/ADC1/A1)] of U1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(152.2297 mm, 106.5695 mm): Track [+5V] on F.Cu, length 2.5309 mm
+    @(152.6200 mm, 106.1115 mm): PTH pad 2 [Net-(U1-GPIO27/ADC1/A1)] of U1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(155.0220 mm, 95.9555 mm): Track [Net-(D1-DIN)] on F.Cu, length 2.1454 mm
+    @(153.4550 mm, 95.9515 mm): Pad 6 [unconnected-(U1-GPIO7/SCL-Pad6)] of U1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(138.6722 mm, 93.6903 mm): Track [Net-(U1-GPIO2/SCK)] on B.Cu, length 25.1778 mm
+    @(152.6200 mm, 93.4115 mm): PTH pad 7 [unconnected-(U1-GPIO0/TX-Pad7)] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(161.5592 mm, 96.4095 mm): Track [Net-(U1-GPIO4/MISO)] on B.Cu, length 23.0663 mm
+    @(152.6200 mm, 95.9515 mm): PTH pad 6 [unconnected-(U1-GPIO7/SCL-Pad6)] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(138.4930 mm, 98.9495 mm): Track [Net-(U1-GPIO3/MOSI)] on B.Cu, length 26.1879 mm
+    @(152.6200 mm, 98.4915 mm): PTH pad 5 [Net-(D1-DIN)] of U1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.6530 mm, 103.6155 mm): Track [Net-(U1-GPIO26/ADC0/A0)] on F.Cu, length 13.3136 mm
+    @(137.3800 mm, 103.5715 mm): PTH pad 12 [Net-(U1-3V3)] of U1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.6530 mm, 103.6155 mm): Track [Net-(U1-GPIO26/ADC0/A0)] on F.Cu, length 13.3136 mm
+    @(136.5450 mm, 103.5715 mm): Pad 12 [Net-(U1-3V3)] of U1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.3394 mm, 103.6155 mm): Track [Net-(U1-GPIO26/ADC0/A0)] on F.Cu, length 0.3696 mm
+    @(136.5450 mm, 103.5715 mm): Pad 12 [Net-(U1-3V3)] of U1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(136.9897 mm, 101.0755 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 14.2033 mm
+    @(137.3800 mm, 101.0315 mm): PTH pad 11 [Net-(U1-GPIO3/MOSI)] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(136.9897 mm, 93.8695 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 0.8806 mm
+    @(137.3800 mm, 93.4115 mm): PTH pad 8 [Net-(U1-GPIO1/RX)] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.8703 mm, 93.8695 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 0.8806 mm
+    @(137.3800 mm, 93.4115 mm): PTH pad 8 [Net-(U1-GPIO1/RX)] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(138.4506 mm, 93.2892 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 0.8206 mm
+    @(137.3800 mm, 93.4115 mm): PTH pad 8 [Net-(U1-GPIO1/RX)] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(136.3670 mm, 100.4528 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 0.8806 mm
+    @(137.3800 mm, 101.0315 mm): PTH pad 11 [Net-(U1-GPIO3/MOSI)] of U1
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(138.4930 mm, 108.6955 mm): Track [+5V] on F.Cu, length 1.5033 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(135.3790 mm, 105.0925 mm): Track [GND] on F.Cu, length 2.0510 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(155.0220 mm, 95.9555 mm): Track [Net-(D1-DIN)] on F.Cu, length 2.1454 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(140.6536 mm, 92.3925 mm): Track [Net-(U1-GPIO1/RX)] on B.Cu, length 3.2236 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(137.4300 mm, 94.9325 mm): Track [Net-(U1-GPIO2/SCK)] on B.Cu, length 1.7568 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(138.4930 mm, 96.4095 mm): Track [Net-(U1-GPIO4/MISO)] on B.Cu, length 1.5033 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(137.4300 mm, 100.0125 mm): Track [Net-(U1-GPIO3/MOSI)] on B.Cu, length 1.5033 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(152.6700 mm, 107.6325 mm): Track [Net-(U1-GPIO26/ADC0/A0)] on F.Cu, length 5.6809 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(151.1930 mm, 101.0755 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 2.0888 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(137.4300 mm, 102.5525 mm): Track [Net-(U1-3V3)] on F.Cu, length 1.5033 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(151.6010 mm, 104.0235 mm): Track [Net-(U1-GPIO27/ADC1/A1)] on F.Cu, length 1.5118 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(132.5000 mm, 64.9500 mm): Rectangle on Edge.Cuts
+    @(140.4960 mm, 112.4825 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(132.5000 mm, 64.9500 mm): Rectangle on Edge.Cuts
+    @(149.4950 mm, 111.5725 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(132.5000 mm, 64.9500 mm): Rectangle on Edge.Cuts
+    @(153.9500 mm, 111.3315 mm): Circle of U1 on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(148.9500 mm, 100.1400 mm): PCB text 'XIAO HERE!!' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.5000 mm, 113.0315 mm): Reference field of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.1100 mm, 92.5225 mm): Segment of U1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(153.8900 mm, 92.5225 mm): Segment of U1 on F.Silkscreen
+[mirrored_text_on_front_layer]: Mirrored text on front layer
+    Local override; warning
+    @(148.9500 mm, 100.1400 mm): PCB text 'XIAO HERE!!' on F.Silkscreen
+
+** Found 10 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.3790 mm, 105.0925 mm): Track [GND] on F.Cu, length 2.0510 mm
+    @(137.3800 mm, 106.1115 mm): PTH pad 13 [GND] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.0220 mm, 95.9555 mm): Track [Net-(D1-DIN)] on F.Cu, length 2.1454 mm
+    @(153.4550 mm, 98.4915 mm): Pad 5 [Net-(D1-DIN)] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.3800 mm, 93.4115 mm): PTH pad 8 [Net-(U1-GPIO1/RX)] of U1
+    @(140.6536 mm, 92.3925 mm): Track [Net-(U1-GPIO1/RX)] on B.Cu, length 3.2236 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.3800 mm, 95.9515 mm): PTH pad 9 [Net-(U1-GPIO2/SCK)] of U1
+    @(137.4300 mm, 94.9325 mm): Track [Net-(U1-GPIO2/SCK)] on B.Cu, length 1.7568 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.3800 mm, 98.4915 mm): PTH pad 10 [Net-(U1-GPIO4/MISO)] of U1
+    @(138.4930 mm, 96.4095 mm): Track [Net-(U1-GPIO4/MISO)] on B.Cu, length 1.5033 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.4300 mm, 100.0125 mm): Track [Net-(U1-GPIO3/MOSI)] on B.Cu, length 1.5033 mm
+    @(137.3800 mm, 101.0315 mm): PTH pad 11 [Net-(U1-GPIO3/MOSI)] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.6200 mm, 108.6515 mm): PTH pad 1 [Net-(U1-GPIO26/ADC0/A0)] of U1
+    @(152.6700 mm, 107.6325 mm): Track [Net-(U1-GPIO26/ADC0/A0)] on F.Cu, length 5.6809 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.1930 mm, 101.0755 mm): Track [Net-(U1-GPIO28/ADC2/A2)] on B.Cu, length 2.0888 mm
+    @(152.6200 mm, 103.5715 mm): PTH pad 3 [Net-(U1-GPIO28/ADC2/A2)] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.4300 mm, 102.5525 mm): Track [Net-(U1-3V3)] on F.Cu, length 1.5033 mm
+    @(137.3800 mm, 103.5715 mm): PTH pad 12 [Net-(U1-3V3)] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.6200 mm, 106.1115 mm): PTH pad 2 [Net-(U1-GPIO27/ADC1/A1)] of U1
+    @(151.6010 mm, 104.0235 mm): Track [Net-(U1-GPIO27/ADC1/A1)] on F.Cu, length 1.5118 mm
+
+** Found 0 Footprint errors **
+
+** End of Report **

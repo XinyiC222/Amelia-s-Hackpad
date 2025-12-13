@@ -1833,6 +1833,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 87.63) (xy 72.39 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c735be-d1a7-459d-9b40-b96aa20185ba")
+	)
+	(wire
+		(pts
 			(xy 107.95 80.01) (xy 113.03 80.01)
 		)
 		(stroke
@@ -1930,6 +1940,16 @@
 			(type default)
 		)
 		(uuid "47d5117e-a510-4d8d-a999-e8931dcb2b5a")
+	)
+	(wire
+		(pts
+			(xy 107.95 76.2) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e985f2-f7b8-410b-97db-2a35cca19796")
 	)
 	(wire
 		(pts
@@ -2053,6 +2073,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
+=======
+			(xy 134.62 54.61) (xy 134.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f85691f-48a9-4c96-92c0-57a90871785d")
+	)
+	(wire
+		(pts
+>>>>>>> bc5c38cecc4d0bf9496fa3e062bae5e5130025a1
 			(xy 119.38 48.26) (xy 118.11 48.26)
 		)
 		(stroke
@@ -2083,6 +2116,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
+=======
+			(xy 111.76 76.2) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1041921-1c60-41b4-8444-ae3243658c00")
+	)
+	(wire
+		(pts
+>>>>>>> bc5c38cecc4d0bf9496fa3e062bae5e5130025a1
 			(xy 128.27 68.58) (xy 129.54 68.58)
 		)
 		(stroke
@@ -2163,6 +2209,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
+=======
+			(xy 111.76 54.61) (xy 134.62 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4e47c6-992b-4b00-a06d-1c616b421d27")
+	)
+	(wire
+		(pts
+>>>>>>> bc5c38cecc4d0bf9496fa3e062bae5e5130025a1
 			(xy 118.11 68.58) (xy 118.11 78.74)
 		)
 		(stroke
@@ -3297,6 +3356,83 @@
 			(project ""
 				(path "/63dd5f8a-2016-4315-adee-55dd1b4905a7"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 127 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3f85ad6-8a1e-496c-95b6-7a5244f1b5ea")
+		(property "Reference" "SW5"
+			(at 127 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+			(at 123.19 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 127 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "c8c16ad6-9042-4ce9-91e4-fcef151b12b7")
+		)
+		(pin "C"
+			(uuid "36fd14c3-506b-48ca-a702-0f611ee1de54")
+		)
+		(pin "B"
+			(uuid "a9c251d5-9e12-4690-8ecd-f38577021ec3")
+		)
+		(pin "S1"
+			(uuid "1d78505a-1ed8-4a8a-b26d-a5268e448cb7")
+		)
+		(pin "S2"
+			(uuid "7a13aaa2-c740-494f-a774-f42c8352bfdf")
+		)
+		(instances
+			(project ""
+				(path "/63dd5f8a-2016-4315-adee-55dd1b4905a7"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
