@@ -7,16 +7,15 @@ My personal Macropad that would help me open up apps, turn volume up and down, a
 - 2 SK6812 MINI-E LED
 - 4 Switches/Keys
 
-<h1>BOM</h1>:
+<h1>BOM:</h1>
+
 - 1x Seeed XIAO RP2040
 - 1x EC11 Rotary Encoder
 - 4x Cherry MX Swithces
 - 4x DSA Keycaps
 - 2x SK6812 MINI-E LED
-- 2x M3x20mm BHCS screws
 - 4x M3 Hex Steel nuts
-- 1x Case(two 3d printed parts, top and bottom)
-
+- 1x Case (two 3d printed parts, top and bottom)
 
 Here is my final designs!
 
@@ -25,7 +24,9 @@ Here is my final designs!
 
 
 
-Schematic:
+<p>Schematic:</p>
+
+
 <img width="766" height="728" alt="Screenshot 2025-12-12 at 11 30 13 PM" src="https://github.com/user-attachments/assets/a1ef4da2-1433-42fb-b972-0000e2c47f91" />
 
 
@@ -33,7 +34,9 @@ Schematic:
 
 
 
-PCB:
+<p>PCB:</p>
+
+
 <img width="799" height="553" alt="Screenshot 2025-12-12 at 11 29 20 PM" src="https://github.com/user-attachments/assets/4c279d7d-5681-4ea0-9d52-5715c58e7503" />
 
 <p>I added a bit of tilt to make it easy to use.</p>
