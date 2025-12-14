@@ -8,15 +8,15 @@ My personal Macropad that would help me open up apps, turn volume up and down, a
 - 4 Switches/Keys
 
 <h1>BOM</h1>:
-- 1x EC11 RotaryEncoder
 - 1x Seeed XIAO RP2040
+- 1x EC11 Rotary Encoder
 - 4x Cherry MX Swithces
 - 4x DSA Keycaps
 - 2x SK6812 MINI-E LED
-- 2x M3x12mm BHCS screws
 - 2x M3x20mm BHCS screws
 - 4x M3 Hex Steel nuts
 - 1x Case(two 3d printed parts, top and bottom)
+
 
 Here is my final designs!
 
