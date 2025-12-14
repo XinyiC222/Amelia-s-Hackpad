@@ -3,9 +3,10 @@
 My personal Macropad that would help me open up apps, turn volume up and down, and do other cool things. I am using: 4 SW_Push, and 1 rotary encoder, 2 neopixels, and a Seed XIAO RP2040. This also uses KMK firmware.
 
 <h1>FEATURES:</h1>
-- EC11 Rotary encoder
-- 2 SK6812 MINI-E LED
-- 4 Switches/Keys
+
+- 1x EC11 Rotary Encoder
+- 4x Keys
+- 2x SK6812 MINI-E LED
 
 <h1>BOM:</h1>
 
